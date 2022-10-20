@@ -5,6 +5,9 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Navigation from './components/Navigation';
 
 function renderPage(currentPage) {
   if (currentPage === 'About') { 
@@ -31,7 +34,8 @@ function App() {
       <Display />  
         <PortfolioContainer /> // which contains the <Project /> for the four we use, this will actually go in the page for portfolio and be imported there
       <Footer />*/}
-
+      <Header />
+      <Navigation currentPage={currentPage} setCurrentPage={setCurrentPage}/>
       <nav>
         <a onClick={setCurrentPage('About')}>
           About
@@ -47,6 +51,7 @@ function App() {
         </a>
       </nav>
       {renderPage(currentPage)}
+      <Footer />
     </div>
   );
 }
