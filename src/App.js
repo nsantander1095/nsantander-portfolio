@@ -25,6 +25,13 @@ function App() {
   const [currentPage, setCurrentPage] = useState('About');
   return (
     <div>
+      {/* should look like:
+      <Header />
+      <Navigation />
+      <Display />  
+        <PortfolioContainer /> // which contains the <Project /> for the four we use, this will actually go in the page for portfolio and be imported there
+      <Footer />*/}
+
       <nav>
         <a onClick={setCurrentPage('About')}>
           About
