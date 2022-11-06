@@ -28,29 +28,8 @@ function App() {
   const [currentPage, setCurrentPage] = useState('About');
   return (
     <div>
-      {/* should look like:
-      <Header />
-      <Navigation />
-      <Display />  
-        <PortfolioContainer /> // which contains the <Project /> for the four we use, this will actually go in the page for portfolio and be imported there
-      <Footer />*/}
       <Header />
       <Navigation currentPage={currentPage} setCurrentPage={setCurrentPage}/>
-      {/* this was for the original conditional render and it was moved to navigation component */}
-      {/* <nav>
-        <a onClick={setCurrentPage('About')}>
-          About
-        </a>
-        <a onClick={setCurrentPage('Contact')}>
-          Contact
-        </a>
-        <a onClick={setCurrentPage('Portfolio')}>
-          Portfolio
-        </a>
-        <a onClick={setCurrentPage('Resume')}>
-          Resume
-        </a>
-      </nav> */}
       {renderPage(currentPage)}
       <Footer />
     </div>
