@@ -36,7 +36,8 @@ function App() {
       <Footer />*/}
       <Header />
       <Navigation currentPage={currentPage} setCurrentPage={setCurrentPage}/>
-      <nav>
+      {/* this was for the original conditional render and it was moved to navigation component */}
+      {/* <nav>
         <a onClick={setCurrentPage('About')}>
           About
         </a>
@@ -49,7 +50,7 @@ function App() {
         <a onClick={setCurrentPage('Resume')}>
           Resume
         </a>
-      </nav>
+      </nav> */}
       {renderPage(currentPage)}
       <Footer />
     </div>
