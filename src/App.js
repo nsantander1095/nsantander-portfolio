@@ -28,7 +28,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState('About');
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <Navigation currentPage={currentPage} setCurrentPage={setCurrentPage}/>
       {renderPage(currentPage)}
       <Footer />
