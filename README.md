@@ -8,8 +8,8 @@
 
 [Link to live site](https://nsantander1095.github.io/nsantander-portfolio/)
 
-My portfolio website is an application that is created using React and Bootstrap. The styling on the site is rough, but the main functionality of conditionally rendering components and pages using the ReactDOM package was the main focus of the project. 
+My portfolio is a full stack application using the MERN Stack and Bootstrap to handle the layout of the app. The goal is to present relavent material applied to my career building journey, as well as showcasing the portfolio app as a piece of my work unto itself. 
 
 ## Visuals
 
-![Site screenshot](assets/nsantander1095.github.io_react-portfolio-project_.png)
+Visuals to come! Updating the design of the site.
