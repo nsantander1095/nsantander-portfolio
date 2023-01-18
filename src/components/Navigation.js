@@ -5,7 +5,7 @@ const Navigation = ({ currentPage, setCurrentPage }) => {
     <div>
       <nav className='navbar navbar-expand-lg bg-info'>
         <div className='container-fluid'>
-          <a className='navbar-brand fs-1' onClick={() => setCurrentPage('About')} href='#about'>Nicolas Santander's Portfolio</a>
+          <a className='navbar-brand fs-1' onClick={() => setCurrentPage('About')} href='#about'>Nicolas Santander</a>
           <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNavDropdown' aria-controls='navbarNavDropdown' aria-expanded='false' aria-label='Toggle navigation'>
             <span className='navbar-toggler-icon'></span>
           </button>
