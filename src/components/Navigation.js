@@ -5,11 +5,13 @@ const Navigation = ({ currentPage, setCurrentPage }) => {
     <div>
       <nav className='navbar navbar-expand-lg bg-info'>
         <div className='container-fluid'>
-          <a className='navbar-brand fs-1' onClick={() => setCurrentPage('About')} href='#about'>Nicolas Santander</a>
-          <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNavDropdown' aria-controls='navbarNavDropdown' aria-expanded='false' aria-label='Toggle navigation'>
+          <a className='navbar-brand fs-1' onClick={() => setCurrentPage('About')} href='#about'>
+            <p className='text-wrap'>Nicolas Santander</p>
+          </a>
+          {/* <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNavDropdown' aria-controls='navbarNavDropdown' aria-expanded='false' aria-label='Toggle navigation'>
             <span className='navbar-toggler-icon'></span>
-          </button>
-          <div className='collapse navbar-collapse flex-grow-0' id='navbarNavDropdown'>
+          </button> */}
+          <div className='' id='navbarNavDropdown'>
             <ul className='navbar-nav'>
               <li className='nav-item'>
                 <a href='#about' onClick={() => setCurrentPage('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
