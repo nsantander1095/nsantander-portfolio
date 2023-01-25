@@ -4,6 +4,13 @@ const Portfolio = () => {
   return (
     <div className="m-2 p-2 vh-100">
       <h2>Portfolio</h2>
+      <div className='card' style={{width: 500}}>
+        <div className='card-body'>
+          <h5 className='card-title'>Text Editor PWA</h5>
+          <p className='card-text'>A fully functional progressive web application for any text editing needs.</p>
+          <a href='https://github.com/nsantander1095/pwa-text-editor-refactor-project' className='btn btn-info'>GitHub</a>
+        </div>
+      </div>
       <ul>
         <li>
           <p>Project 1: <a href="https://github.com/nsantander1095/pwa-text-editor-refactor-project">Text Editor PWA</a></p>
