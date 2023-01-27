@@ -2,7 +2,7 @@ import React from 'react'
 
 const Portfolio = () => {
   return (
-    <div className="p-2 mx-auto vh-100">
+    <div className="container-fluid p-3 mx-auto">
       <h2>Portfolio</h2>
       <div className='row mt-2 justify-content-around'>
 
