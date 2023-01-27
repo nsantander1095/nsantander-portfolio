@@ -2,7 +2,7 @@ import React from 'react'
 
 const Resume = () => {
   return (
-    <div className="p-2 m-2 vh-100">
+    <div className="p-2 m-2 min-vh-100">
       <h2>Resume</h2>
       <p>
         To see a full copy of my resume, please visit this link:
