@@ -7,7 +7,7 @@ const Resume = () => {
       <p>
         To see a full copy of my resume, please visit this link:
       </p>
-      <a href=" https://docs.google.com/document/d/1os8UqxUCCtiN_eeUi260_dcsTb4hCKVd/edit?usp=sharing&ouid=115429115866066603735&rtpof=true&sd=true">My Resume</a>
+      <a href="https://docs.google.com/document/d/1qlzMxhHK2PdjINai0LnI2kz4cSMil9enJgaU4zOF-_Q/edit">My Resume</a>
     </div>
   )
 }
