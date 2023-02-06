@@ -4,7 +4,7 @@ import logo from '../assets/images/logo-color.png'
 const Navigation = ({ currentPage, setCurrentPage }) => {
   return (
     <div>
-      <nav className='navbar navbar-expand-lg' style={{ backgroundColor: '#7a26c1'}}>
+      <nav className='navbar navbar-dark navbar-expand-lg' style={{ backgroundColor: '#7a26c1'}}>
         <div className='container-fluid'>
           <a className='navbar-brand fs-1' onClick={() => setCurrentPage('About')} href='#about'>
             {/* <p className='text-wrap'>Nicolas Santander</p> */}
