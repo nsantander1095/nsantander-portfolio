@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../assets/images/logo-color.png'
 
 const Navigation = ({ currentPage, setCurrentPage }) => {
   return (
@@ -6,7 +7,8 @@ const Navigation = ({ currentPage, setCurrentPage }) => {
       <nav className='navbar navbar-expand-lg' style={{ backgroundColor: '#7a26c1'}}>
         <div className='container-fluid'>
           <a className='navbar-brand fs-1' onClick={() => setCurrentPage('About')} href='#about'>
-            <p className='text-wrap'>Nicolas Santander</p>
+            {/* <p className='text-wrap'>Nicolas Santander</p> */}
+            <img src={logo} alt='logo' style={{width: '25rem'}}></img>
           </a>
           {/* <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNavDropdown' aria-controls='navbarNavDropdown' aria-expanded='false' aria-label='Toggle navigation'>
             <span className='navbar-toggler-icon'></span>

@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-body {
+#root {
   font-family: 'Montserrat';
+  background-color: black;
+  color: #ffff;
 }
 
 .App {
