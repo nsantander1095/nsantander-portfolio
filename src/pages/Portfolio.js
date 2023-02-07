@@ -4,6 +4,8 @@ import memgame from '../assets/images/screenshot.png'
 import gitpub from '../assets/images/gitpub-screenshot.png'
 import socapi from '../assets/images/social-network-api.png'
 
+// TODO: Maybe work on the card styling a bit more. Maybe for the github button we use the logo or the color from the background on github. Need to add technologies to each card. We should probably just rewrite each one.
+
 const Portfolio = () => {
   return (
     <div className="container-fluid p-3 mx-auto min-vh-100">

@@ -1,5 +1,7 @@
 import React from 'react'
 
+// TODO: Need to style. Might be a good place to list skills: backend, frontend, and soft skills. Also have link to resume
+
 const Resume = () => {
   return (
     <div className="p-2 m-2 min-vh-100">

@@ -1,6 +1,8 @@
 import React from 'react'
 import headshot from '../assets/images/headshotsqr.jpg'
 
+// TODO: Find a way to add another paragraph that is more personal interest aligned. Maybe border photo
+
 const About = () => {
   return (
     <div className="container-fluid p-2 m-2 min-vh-100">

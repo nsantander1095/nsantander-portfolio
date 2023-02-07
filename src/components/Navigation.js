@@ -1,6 +1,8 @@
 import React from 'react'
 import logo from '../assets/images/logo-color.png'
 
+// TODO: Continue to make sure this looks good on mobile. It was kind of annoying to see the navbar grow so large and for the links to not flex row at breakpoint. 
+
 const Navigation = ({ currentPage, setCurrentPage }) => {
   return (
     <div>

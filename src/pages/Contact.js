@@ -1,5 +1,7 @@
 import React from 'react'
 
+// TODO: Change to a card. Also add your linkedin and other relevant links
+
 const Contact = () => {
   return (
     <div className="m-2 p-2 min-vh-100">
