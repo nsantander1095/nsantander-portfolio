@@ -17,7 +17,7 @@ const Portfolio = () => {
             <p className='card-text'>An Instagram clone using Handlebars for page views, Express/MySQL for the server, image hosting through Cloudinary, and image uploading through Multer node module.</p>
             <p className='card-text'>My role on this collaborative project was centered heavily around the layout of the website with some backend work revolving around teh ability to add and remove friends.</p>
             <a href='https://github.com/BBelk/Not-Insta' className='btn btn-dark'>GitHub</a>
-            <a href='https://thawing-springs-27251.herokuapp.com/' className='btn btn-dark mx-2'>Live Site</a>
+            <a href='https://thawing-springs-27251.herokuapp.com/' className='btn btn-dark mx-2' style={{backgroundColor: '#1b082b'}}>Live Site</a>
           </div>
         </div>
         <div className='card p-0 col-12 col-xxl-4 mb-5' style={{width: "30rem", height: '37rem', backgroundColor: '#511981'}}>
@@ -27,7 +27,7 @@ const Portfolio = () => {
             <p className='card-text'>Full MERN Stack application taking the form of a card flipping memory game. Relies on a globally state managed game engine that keeps track of scores, flips and any other pertinent metrics for the game.</p>
             <p className='card-text'>My role on this collaborative project was mainly building out the layouts for the game as well as making it responsive. I also was heavily invovled in switching the game over to a gloabally state managed engine from the original structure.</p>
             <a href='https://github.com/BBelk/Memory-Game' className='btn btn-dark'>Github</a>
-            <a href='https://dry-tundra-29489.herokuapp.com/' className='btn btn-dark mx-2'>Live Site</a>
+            <a href='https://dry-tundra-29489.herokuapp.com/' className='btn btn-dark mx-2' style={{backgroundColor: '#1b082b'}}>Live Site</a>
           </div>
         </div>
         <div className='card p-0 col-12 col-xxl-4 mb-5' style={{width: "30rem", height: '37rem', backgroundColor: '#511981'}}>
@@ -54,7 +54,7 @@ const Portfolio = () => {
             <p className='card-text'>A frontend web application that uses the OpenBreweryDB and SportsDB third-party APIs to find breweries in any city of your choosing as well as any major sporting events happening that day.</p>
             <p className='card-text'>My role on this collaborative project was as the admin. I assisted all of my colleagues with the work they needed to complete, as well as doing a fair amount of it myself.</p>
             <a href='https://github.com/nsantander1095/gitpub' className='btn btn-dark'>Github</a>
-            <a href='https://nsantander1095.github.io/gitpub/' className='btn btn-dark mx-2'>Live Site</a>
+            <a href='https://nsantander1095.github.io/gitpub/' className='btn btn-dark mx-2' style={{backgroundColor: '#1b082b'}}>Live Site</a>
           </div>
         </div>
         <div className='card p-0 col-12 col-xxl-4 mb-5' style={{width: "30rem", height: '37rem', backgroundColor: '#511981'}}>
