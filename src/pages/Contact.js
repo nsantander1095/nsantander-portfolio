@@ -1,6 +1,6 @@
 import React from 'react'
 
-// TODO: Change to a card. Also add your linkedin and other relevant links
+// TODO: Change to a card. Also add your linkedin and other relevant links. Potentially also style this card the most, lost of shadow
 
 const Contact = () => {
   return (
