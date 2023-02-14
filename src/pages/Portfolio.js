@@ -39,7 +39,7 @@ const Portfolio = () => {
           <img src={gitpub} className='card-img-top' alt='gitpub-screenshot'></img>
           <div className='card-body'>
             <h4 className='card-title'>GitPub</h4>
-            <h6 className='card-subtitle mb-2'>Collaborative, Full-Stack</h6>
+            <h6 className='card-subtitle mb-2'>Collaborative, Front-End</h6>
             <hr></hr>
             <p className='card-text'>A frontend web application that uses the OpenBreweryDB and SportsDB third-party APIs to find breweries in any city of your choosing as well as any major sporting events happening that day.</p>
             <p className='card-text'>My role on this collaborative project was as the admin. I assisted all of my colleagues with the work they needed to complete, as well as doing a fair amount of it myself.</p>
