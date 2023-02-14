@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nsantander-portfolio/static/css/main.2a314ac1.css",
-    "main.js": "/nsantander-portfolio/static/js/main.aed7af1f.js",
+    "main.js": "/nsantander-portfolio/static/js/main.fbd1f6f6.js",
     "static/js/787.a5bcddaa.chunk.js": "/nsantander-portfolio/static/js/787.a5bcddaa.chunk.js",
     "static/media/slowgram-screenshot.png": "/nsantander-portfolio/static/media/slowgram-screenshot.b0d44993b1b1d4274539.png",
     "static/media/gitpub-screenshot.png": "/nsantander-portfolio/static/media/gitpub-screenshot.72646b4dda36e5956b4a.png",
@@ -14,11 +14,11 @@
     "static/media/logo.svg": "/nsantander-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/nsantander-portfolio/index.html",
     "main.2a314ac1.css.map": "/nsantander-portfolio/static/css/main.2a314ac1.css.map",
-    "main.aed7af1f.js.map": "/nsantander-portfolio/static/js/main.aed7af1f.js.map",
+    "main.fbd1f6f6.js.map": "/nsantander-portfolio/static/js/main.fbd1f6f6.js.map",
     "787.a5bcddaa.chunk.js.map": "/nsantander-portfolio/static/js/787.a5bcddaa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a314ac1.css",
-    "static/js/main.aed7af1f.js"
+    "static/js/main.fbd1f6f6.js"
   ]
 }
