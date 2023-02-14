@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../assets/images/logo-color.png'
 
-// TODO: Continue to make sure this looks good on mobile. It was kind of annoying to see the navbar grow so large and for the links to not flex row at breakpoint. 
+// TODO: Continue to make sure this looks good on mobile. It was kind of annoying to see the navbar grow so large and for the links to not flex row at breakpoint. Maybe try to fix toggler?
 
 const Navigation = ({ currentPage, setCurrentPage }) => {
   return (
@@ -16,7 +16,7 @@ const Navigation = ({ currentPage, setCurrentPage }) => {
             <span className='navbar-toggler-icon'></span>
           </button> */}
           <div className='' id='navbarNavDropdown'>
-            <ul className='navbar-nav'>
+            <ul className='navbar-nav d-flex'>
               <li className='nav-item'>
                 <a href='#about' onClick={() => setCurrentPage('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
                   About

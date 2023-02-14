@@ -1,7 +1,5 @@
 import React from 'react'
 
-// TODO: Change to a card. Also add your linkedin and other relevant links. Potentially also style this card the most, lost of shadow
-
 const Contact = () => {
   return (
     <div className="continaer-fluid m-2 p-2 mx-auto min-vh-100">
@@ -10,31 +8,13 @@ const Contact = () => {
           <div className='card-body'>
             <h1 className='card-title text-center mb-2'>Contact Me</h1>
             <hr></hr>
-            <p className='card-text text-center'>Email: nsantander1095@gmail.com</p>
-            <p className='card-text text-center'>Phone: 704-555-5555</p>
-            <p className='card-text text-center'>Github: github.com/nsantander1095</p>
-            <p className='card-text text-center'>LinkedIn: www.linkedin.com/in/nicolas-santander/</p>
+            <p className='card-text text-center'>Email: <a href='mailto:nsantander1095@gmail.com' style={{color: '#ffff'}}>nsantander1095@gmail.com</a></p>
+            <p className='card-text text-center'>Phone: <a href='tel:+7045027816' style={{color: '#ffff'}}>704-502-7816</a></p>
+            <p className='card-text text-center'>Github: <a target='_blank' rel='noopner noreferrer' href='https://github.com/nsantander1095' style={{color: '#ffff'}}>github.com/nsantander1095</a></p>
+            <p className='card-text text-center'>LinkedIn: <a target='_blank' rel='noopner noreferrer' href='https://www.linkedin.com/in/nicolas-santander/' style={{color: '#ffff'}}>www.linkedin.com/in/nicolas-santander/</a></p>
           </div>
         </div>
       </div>
-      {/* <div className='row justify-content-center'>
-        <h2 className="mb-3 text-center">Contact Me</h2>
-        <p className='text-center'>
-          My contact information is as follows:
-          <ul className='list-group list-group-flush'>
-            <li className='list-group-item border-0'>
-              Email: nick@me.com
-            </li>
-            <li className='list-group-item border-0'>
-              Phone: 704-555-5555
-            </li>
-            <li className='list-group-item border-0'>
-              GitHub: https://github.com/nsantander1095
-            </li>
-          </ul>
-        </p>
-
-      </div> */}
     </div>
   )
 }
