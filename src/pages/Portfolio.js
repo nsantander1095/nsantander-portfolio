@@ -4,6 +4,7 @@ import memgame from '../assets/images/screenshot.png'
 import gitpub from '../assets/images/gitpub-screenshot.png'
 import socapi from '../assets/images/social-network-api.png'
 import portfolio from '../assets/images/portfolio-screenshot.png'
+import emptrack from '../assets/images/emp-tracker.png'
 
 // TODO: Rewrite cards, add technologies used, add icons from fontawesome
 
@@ -48,6 +49,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div className='card p-0 col-12 col-xxl-4 mb-5' style={{width: "30rem", backgroundColor: '#511981', boxShadow: '15px 10px 10px black'}}>
+          <img src={emptrack} className='card-img-top' alt='employee-tracker-screenshot'></img>
           <div className='card-body'>
             <h4 className='card-title'>Employee Tracker</h4>
             <h6 className='card-subtitle mb-2'>Solo, Back-End</h6>
