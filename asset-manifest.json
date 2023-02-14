@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/nsantander-portfolio/static/css/main.2a314ac1.css",
-    "main.js": "/nsantander-portfolio/static/js/main.1c850cc9.js",
+    "main.js": "/nsantander-portfolio/static/js/main.aed7af1f.js",
     "static/js/787.a5bcddaa.chunk.js": "/nsantander-portfolio/static/js/787.a5bcddaa.chunk.js",
     "static/media/slowgram-screenshot.png": "/nsantander-portfolio/static/media/slowgram-screenshot.b0d44993b1b1d4274539.png",
     "static/media/gitpub-screenshot.png": "/nsantander-portfolio/static/media/gitpub-screenshot.72646b4dda36e5956b4a.png",
     "static/media/screenshot.png": "/nsantander-portfolio/static/media/screenshot.e265d6218149e4bf8936.png",
     "static/media/portfolio-screenshot.png": "/nsantander-portfolio/static/media/portfolio-screenshot.9b638dd4f8be235243e1.png",
     "static/media/headshotsqr.jpg": "/nsantander-portfolio/static/media/headshotsqr.4a91ab07dd0137ffb0fc.jpg",
+    "static/media/emp-tracker.png": "/nsantander-portfolio/static/media/emp-tracker.9dd9fffdf9b1169f8dc2.png",
     "static/media/social-network-api.png": "/nsantander-portfolio/static/media/social-network-api.0631a24843fcba3a30de.png",
     "static/media/logo-color.png": "/nsantander-portfolio/static/media/logo-color.996ea5f8108ce5a3e4ae.png",
     "static/media/logo.svg": "/nsantander-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/nsantander-portfolio/index.html",
     "main.2a314ac1.css.map": "/nsantander-portfolio/static/css/main.2a314ac1.css.map",
-    "main.1c850cc9.js.map": "/nsantander-portfolio/static/js/main.1c850cc9.js.map",
+    "main.aed7af1f.js.map": "/nsantander-portfolio/static/js/main.aed7af1f.js.map",
     "787.a5bcddaa.chunk.js.map": "/nsantander-portfolio/static/js/787.a5bcddaa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a314ac1.css",
-    "static/js/main.1c850cc9.js"
+    "static/js/main.aed7af1f.js"
   ]
 }
