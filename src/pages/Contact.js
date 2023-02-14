@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className="continaer-fluid m-2 p-2 mx-auto min-vh-100">
+    <div className="continaer-fluid p-3 mx-auto min-vh-100">
       <div className='row mt-2 justify-content-center'>
         <div className='card p-0 col-12 mt-5' style={{width: '30rem', backgroundColor: '#511981', boxShadow: '15px 10px 10px black'}}>
           <div className='card-body'>

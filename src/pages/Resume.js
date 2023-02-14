@@ -2,7 +2,7 @@ import React from 'react'
 
 const Resume = () => {
   return (
-    <div className="container-fluid p-2 m-2 mx-auto min-vh-100">
+    <div className="container-fluid p-3 mx-auto min-vh-100">
       <div className='text-center mb-5'>
         <h2>Resume</h2>
         <p className='text-center'>
