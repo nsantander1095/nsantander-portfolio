@@ -95,7 +95,7 @@ const Portfolio = () => {
             <h4 className='card-title'>Employee Tracker</h4>
             <h6 className='card-subtitle mb-2'>Solo, Back-End</h6>
             <hr></hr>
-            <p className='card-text'>Content Managememnt System for keeping track of employees, tracking items such as salary, role, manager, etc. Uses Node.js, the Inquirer NPM, and MySQL.</p>
+            <p className='card-text'>Content Managememnt System for keeping track of employees, tracking items such as salary, role, manager, etc.</p>
             <p className='card-text fs-5'>Tech used:</p>
             <ul className='card-text'>
               <li>Node.js</li>
@@ -128,7 +128,7 @@ const Portfolio = () => {
             <h4 className='card-title'>My Portfolio Website</h4>
             <h6 className='card-subtitle mb-2'>Solo, Front-End</h6>
             <hr></hr>
-            <p className='card-text'>This portfolio was a solo endeavour to demonstrate my skills with building Full MERN Stack applications, as well as handling the styling myself using Bootstrap.</p>
+            <p className='card-text'>This portfolio was a solo endeavour to demonstrate my skills with building React applications, as well as handling the styling myself using Bootstrap.</p>
             <p className='card-text fs-5'>Tech used:</p>
             <ul className='card-text'>
               <li>Node.js</li>
