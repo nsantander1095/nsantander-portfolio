@@ -56,6 +56,7 @@ const Resume = () => {
             <ul className='card-text'>
               <li>Excellent Written and Verbal Communication</li>
               <li>Team Player</li>
+              <li>Agile/Scrum development</li>
               <li>Extensive Customer Service experience</li>
               <li>Strong interpersonal skills</li>
               <li>Attention to detail</li>
