@@ -40,6 +40,8 @@ const Resume = () => {
               <li>SQL</li>
               <li>MySQL</li>
               <li>NoSQL</li>
+              <li>Jest</li>
+              <li>ESLint</li>
               <li>MongoDB Atlas</li>
               <li>Mongoose</li>
               <li>GraphQL</li>
